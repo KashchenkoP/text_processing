@@ -10,6 +10,7 @@ sc = SparkContext(appName="PythonSparkStreamingKafka")
 sc.setLogLevel("WARN")
 ssc = StreamingContext(sc,60)
 print('ssc =================== {} {}');
+print(ssc)
 kafkaStream = KafkaUtils.createStream(ssc, 'localhost:2181', 'spark-streaming', {'mongo':0})
 print('contexts =================== {} {}');
 lines = kafkaStream.map(lambda x: x[1])
