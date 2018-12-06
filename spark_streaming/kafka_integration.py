@@ -5,7 +5,7 @@ from pyspark import SparkContext
 from pyspark.streaming import StreamingContext
 from pyspark.streaming.kafka import KafkaUtils
 import json
-os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages org.apache.spark:spark-streaming-kafka-0-10_2.12:2.4.0 pyspark-shell'
+#os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages org.apache.spark:spark-streaming-kafka-0-10_2.12:2.4.0 pyspark-shell'
 sc = SparkContext(appName="PythonSparkStreamingKafka")
 sc.setLogLevel("WARN")
 ssc = StreamingContext(sc,60)
