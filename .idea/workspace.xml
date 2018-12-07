@@ -48,8 +48,8 @@
       <file leaf-file-name="kafka_integration.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../text_processing/spark_streaming/kafka_integration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="504">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -117,6 +117,11 @@
             <path>
               <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="text_processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="text_processing" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_streaming" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../text_processing/spark_streaming/kafka_integration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="504">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

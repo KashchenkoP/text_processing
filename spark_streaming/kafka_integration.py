@@ -11,7 +11,7 @@ sc.setLogLevel("WARN")
 ssc = StreamingContext(sc,60)
 print('ssc =================== {} {}');
 print(ssc)
-kafkaStream = KafkaUtils.createStream(ssc, 'localhost:2181', 'spark-streaming', {'mongo':0})
+kafkaStream = KafkaUtils.createStream(ssc, 'localhost:2181', 'spark_streaming', {'mongo':0})
 print('contexts =================== {} {}');
 lines = kafkaStream.map(lambda x: x[1])
 lines.pprint()
